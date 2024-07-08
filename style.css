@@ -14,11 +14,6 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* width: 100%; */
-    /* align-items: center;
-    justify-content: center; */
 }
 
 
@@ -146,18 +141,6 @@ aside {
     position: absolute;
     top: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .icons{
     display: grid;
@@ -461,7 +444,7 @@ font-size: larger;
 
 
 .contact-box {
-        background-color: #444; /* Dark background color for the boxes */
+        background-color: #444;
         padding: 10px;
         border-radius: 10px;
         display: flex;
@@ -544,18 +527,18 @@ font-size: larger;
 
 
 
-
 footer{
     width: 100%;
 }
 .footer-icon{
+    
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 .foot-icon img{
-    height: 1em;
-    width: 1em;
+    height: 1.5em;
+    width: 1.5em;
     border-radius: 50%;
 }
 .foot-icon{
@@ -602,12 +585,6 @@ font-size: 20px;
 
 
 }
-
-
-
-
-
-
 @media (max-width: 600px) {
 
     .content button{
@@ -671,19 +648,6 @@ font-size: 20px;
     height: 200px;
 
 }
-#prev-btn {
-    /* position: relative; */
-    top: 100px;
-    left: -90px;
-
-}
-#next-btn {
-    /* position: relative; */
-    top: 100px;
-    /* left:left0px; */
-    right: -90px;
-
-}
 
 
 }
@@ -694,20 +658,6 @@ font-size: 20px;
     width: 250px;
     height: 170px;
 
-}
-
-#prev-btn {
-    /* position: relative; */
-    top: 100px;
-    /* left: -90px; */
-
-}
-#next-btn {
-    /* position: relative; */
-    /* top: 100px;       */
-    /* left:left0px; */
-    /* right: -90px; */
-right: 15px;
 }
 
 .projects .project-box{
